@@ -5,8 +5,8 @@ var logger = require("morgan");
 var mongoose = require("mongoose");
 var exphbs = require("express-handlebars");
 //Models
-var Comments = require("./models/Comments.js");
-var Article = require("./models/Article.js");
+var Note = require("./models/Note.js");
+var Article = require("./models/Articles.js");
 //scraping
 var request = require("request");
 var cheerio = require("cheerio");
